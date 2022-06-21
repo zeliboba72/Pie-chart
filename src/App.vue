@@ -6,7 +6,8 @@ import { PieChart } from './components/PieChart';
   <pie-chart
       :width="500"
       :height="500"
-      :doughnut-value="0.6"
+      :pie-value="0.5"
+      :doughnut-value="0.1"
       doughnut-wide
       show-doughnut
   />
